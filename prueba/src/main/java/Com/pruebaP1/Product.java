@@ -9,7 +9,7 @@ class Product {
     private int quantity; //se declara la cantidad del producto
 
     //contrustor de la clase producto con todas las variables de la clase
-    public void product(int id, String name, double price, int quantity){
+    public Product(int id, String name, double price, int quantity){
         this.id = id;
         this.name = name;
         this.price = price;
