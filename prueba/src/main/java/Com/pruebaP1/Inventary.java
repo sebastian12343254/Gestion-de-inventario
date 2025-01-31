@@ -17,13 +17,15 @@ class Inventary {
     }
 
     //metodo para actualizar productos del arraylist
-    void updateProduct(Product product, int index){
+    boolean updateProduct(Product product, int index){
         products.set(index, product);
+        return true;
     }
 
     //metodo para obtener productos del arraylist
-    void getProduct(int index){
+    boolean getProduct(int index){
         System.out.println(products.get(index));
+        return true;
     }
 
     //metodo para mostrar los productos del arraylist
